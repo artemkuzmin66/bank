@@ -1,0 +1,115 @@
+.rate {
+   padding: 60px 0 30px;
+
+   @media (min-width: 768px) {
+      padding: 70px 0 0;
+      margin-bottom: -40px;
+   }
+
+   @media (min-width: 1200px) {
+      padding: 120px 0 0;
+      margin-bottom: -20px;
+   }
+
+   @media (min-width: 1600px) {
+      padding: 86px 0 0;
+   }
+
+   h1 {
+      font-family: "SquadExtraBold", sans-serif;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 48px;
+      margin-bottom: 74px;
+
+      @media (min-width: 768px) {
+         margin-bottom: 48px;
+      }
+
+      @media (min-width: 1600px) {
+         font-size: 40px;
+         line-height: 48px;
+         letter-spacing: -0.4px;
+      }
+   }
+   &__row {
+      display: flex;
+      flex-direction: column;
+
+      @media (min-width: 768px) {
+         align-items: flex-start;
+         flex-direction: row;
+         flex-wrap: wrap;
+      }
+
+      @media (min-width: 1200px) {
+         align-items: flex-start;
+         justify-content: space-between;
+      }
+   }
+   &__col {
+      margin-bottom: 52px;
+
+      @media (min-width: 768px) {
+         flex: 0 0 50%;
+         margin-bottom: 80px;
+      }
+
+      @media (min-width: 1024px) {
+         flex: 0 0 33%;
+         margin-bottom: 0;
+      }
+
+      &-wrapper {
+         display: flex;
+         align-items: flex-start;
+         justify-content: flex-end;
+         flex-direction: column;
+         margin-bottom: 14px;
+         position: relative;
+         height: 148px;
+
+         @media (min-width: 768px) {
+            height: 190px;
+         }
+      }
+
+      &-ico {
+         margin-bottom: 20px;
+      }
+
+      &-img {
+         height: 148px;
+         position: absolute;
+         bottom: 10px;
+         left: 70px;
+
+         @media (min-width: 768px) {
+            left: 90px;
+         }
+      }
+
+      &-text {
+         max-width: 140px !important;
+      }
+      h3 {
+         font-weight: bold;
+         font-size: 24px;
+         line-height: 32px;
+         max-width: 295px;
+      }
+
+      p {
+         font-family: "SourceSansPro", sans-serif;
+         font-weight: normal;
+         font-size: 16px;
+         line-height: 24px;
+         max-width: 304px;
+
+         span {
+            color: #428b26;
+            font-weight: 700;
+         }
+      }
+   }
+}

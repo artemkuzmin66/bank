@@ -1,0 +1,32 @@
+.app {
+   margin: 0 auto;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   width: 100%;
+   position: relative;
+   box-sizing: border-box;
+   padding: 0 16px;
+}
+
+ul {
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+a,
+button,
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+   margin: 0;
+   padding: 0;
+}

@@ -1,0 +1,122 @@
+.container--mobileApp {
+   padding: 0;
+
+   @media (min-width: 768px) {
+      padding: 0 32px;
+   }
+
+   @media (min-width: 1200px) {
+      padding: 0 16px;
+   }
+}
+
+.mobile {
+   background: url(../../assets/images/mobileApp/bg.png) no-repeat 50% #607d8b;
+   background-size: cover;
+   padding: 43px 0;
+   margin-bottom: 60px;
+
+   @media (min-width: 768px) {
+      padding: 70px 0;
+      margin-bottom: 80px;
+      border-radius: 32px;
+   }
+
+   @media (min-width: 1200px) {
+      padding: 78px 0;
+      margin-bottom: 120px;
+   }
+
+   @media (min-width: 1600px) {
+      padding: 118px 0;
+      margin-bottom: 160px;
+   }
+
+   &__wrapper {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+
+      @media (min-width: 768px) {
+         align-items: flex-end;
+      }
+   }
+
+   &__content {
+      width: 100%;
+      min-width: 343px;
+      max-width: 480px;
+
+      &-logo {
+         display: none;
+
+         @media (min-width: 768px) {
+            display: block;
+            width: 64px;
+            height: 64px;
+            margin-bottom: 24px;
+         }
+      }
+      &-google {
+         margin-top: 12px;
+      }
+
+      &-title {
+         @media (min-width: 768px) {
+            max-width: unset !important;
+         }
+      }
+      h2 {
+         font-family: "SquadExtraBold", sans-serif;
+         font-weight: 800;
+         font-size: 32px;
+         line-height: 40px;
+         margin-bottom: 12px;
+         color: #fff;
+         max-width: 280px;
+
+         @media (min-width: 768px) {
+            font-size: 40px;
+            line-height: 48px;
+         }
+
+         @media (min-width: 1600px) {
+            letter-spacing: -0.4px;
+         }
+         span {
+            display: block;
+         }
+      }
+      p {
+         font-family: "SourceSansPro", sans-serif;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 28px;
+         color: #ffffff;
+         margin-bottom: 12px;
+      }
+      &-row {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         margin-top: 20px;
+      }
+      &-row-qr {
+         margin-right: 16px;
+         display: none;
+
+         @media (min-width: 768px) {
+            display: block;
+         }
+      }
+      &-col {
+         display: flex;
+         flex-direction: column;
+
+         &-apple {
+            margin-bottom: 12px;
+         }
+      }
+   }
+}

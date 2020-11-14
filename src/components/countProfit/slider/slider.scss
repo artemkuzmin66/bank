@@ -1,0 +1,37 @@
+.range {
+   -webkit-appearance: none;
+   margin: 0;
+   height: 4px;
+   background: linear-gradient(
+      to right,
+      rgb(82, 174, 48) 0%,
+      rgb(82, 174, 48) 24.024%,
+      rgb(184, 184, 184) 24.024%,
+      rgb(184, 184, 184) 100%
+   );
+}
+
+.slider {
+}
+
+#fader {
+}
+
+#fader::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   width: 24px;
+   height: 24px;
+   background: #52ae30;
+   border: 5px solid #ffffff;
+   box-sizing: border-box;
+   box-shadow: 0 0 3px #ffffff;
+   border-radius: 40px;
+   z-index: 1;
+   margin-top: -10px;
+}
+
+.slider > input[type="range"] {
+   border-radius: 2px;
+   width: 100%;
+   outline: none;
+}

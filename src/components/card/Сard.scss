@@ -1,0 +1,163 @@
+.cart {
+   padding: 60px 0;
+
+   @media (min-width: 768px) {
+      padding: 80px 0 0;
+   }
+
+   @media (min-width: 1200px) {
+      padding: 120px 0 0;
+   }
+
+   @media (min-width: 1600px) {
+      padding: 160px 0 0;
+   }
+
+   &__header {
+      h1 {
+         font-weight: 800;
+         font-size: 40px;
+         line-height: 48px;
+         max-width: 380px;
+         letter-spacing: -0.4px;
+         margin-bottom: 16px;
+
+         @media (min-width: 1600px) {
+            font-size: 40px;
+            line-height: 48px;
+            letter-spacing: -0.4px;
+         }
+      }
+
+      p {
+         font-family: "SourceSansPro", sans-serif;
+         font-weight: 400;
+         color: #494949;
+         max-width: 650px;
+         font-size: 24px;
+         line-height: 30px;
+         margin-bottom: 32px;
+      }
+   }
+
+   &__body {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 32px;
+
+      @media (min-width: 768px) {
+         flex-direction: row;
+         align-items: center;
+         margin-bottom: 48px;
+      }
+
+      &-img {
+         max-width: 450px;
+         box-sizing: border-box;
+         margin-bottom: 32px;
+
+         @media (min-width: 768px) {
+            flex: 1 0 50%;
+            max-width: 482px;
+            padding-right: 32px;
+            margin-bottom: 0;
+         }
+
+         @media (min-width: 1024px) {
+            max-width: 522px;
+            padding-right: 72px;
+         }
+
+         img {
+            width: 100%;
+            height: auto;
+            display: block;
+         }
+      }
+
+      &-content {
+         &-list {
+            li {
+               font-family: "SquadExtraBold", sans-serif;
+               font-weight: 800;
+               font-size: 18px;
+               line-height: 24px;
+               color: #1b1f27;
+               padding-left: 24px;
+               position: relative;
+               margin-bottom: 30px;
+               max-width: 384px;
+               box-sizing: border-box;
+
+               @media (min-width: 1024px) {
+                  font-size: 24px;
+                  line-height: 32px;
+                  max-width: 600px;
+               }
+
+               &::before {
+                  content: "";
+                  background: #52ae30;
+                  height: 8px;
+                  width: 8px;
+                  border-radius: 50%;
+                  position: absolute;
+                  left: 0px;
+                  top: 2px;
+                  flex: none;
+                  order: 0;
+                  align-self: flex-start;
+                  flex-grow: 0;
+                  margin: 12px 0;
+               }
+
+               span {
+                  display: inline-block;
+                  color: #428b26;
+                  font-weight: 800;
+               }
+            }
+         }
+      }
+   }
+
+   &__footer {
+      display: flex;
+      flex-direction: column;
+
+      @media (min-width: 768px) {
+         justify-content: space-between;
+         align-items: center;
+         flex-direction: row;
+      }
+
+      button {
+         font-weight: 600;
+         font-size: 20px;
+         line-height: 28px;
+         color: #ffffff;
+         background: #52ae30;
+         border-radius: 32px;
+         width: 200px;
+         height: 56px;
+         outline: none;
+         cursor: pointer;
+         border: none;
+         margin-bottom: 32px;
+      }
+      a {
+         font-weight: bold;
+         font-size: 16px;
+         line-height: 24px;
+         color: #000000;
+         text-decoration: none;
+         background: url(../../assets/images/pdf.png) no-repeat left;
+         padding-left: 37px;
+
+         @media (min-width: 768px) {
+            margin-top: 0;
+            justify-content: flex-end;
+         }
+      }
+   }
+}

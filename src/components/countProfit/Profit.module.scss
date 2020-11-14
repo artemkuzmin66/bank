@@ -1,0 +1,35 @@
+.tabs {
+   display: inline;
+   position: relative;
+   padding-bottom: 40px;
+   border-bottom: 2px solid #f1f1f1;
+}
+
+.text {
+   font-family: "SquadExtraBold", sans-serif;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 28px;
+   color: #676767;
+   cursor: pointer;
+   display: inline;
+   padding-bottom: 40px;
+   white-space: nowrap;
+
+   &:first-child {
+      margin-right: 48px;
+   }
+
+   @media (min-width: 768px) {
+      line-height: 32px;
+      font-size: 24px;
+   }
+}
+
+.active {
+   border-bottom: 4px solid #52ae30;
+   width: 269px;
+   height: 0px;
+   color: #151617;
+   transition: 0.4s;
+}

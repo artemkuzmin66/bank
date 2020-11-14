@@ -1,0 +1,53 @@
+.container {
+   @media (min-width: 768px) {
+      padding: 0 32px;
+   }
+
+   @media (min-width: 1200px) {
+      padding: 0 16px;
+   }
+}
+.stock {
+   background-color: #dbf4fa;
+   padding: 45px 0;
+
+   @media (min-width: 992px) {
+      padding: 50px 0;
+   }
+
+   &__content {
+      display: flex;
+      flex-direction: column;
+
+      &-h1 {
+         font-weight: 800;
+         font-size: 40px;
+         line-height: 48px;
+         font-family: "SquadExtraBold", sans-serif;
+
+         @media (min-width: 768px) {
+            margin-bottom: 16px;
+         }
+
+         @media (min-width: 1600px) {
+            margin-bottom: 32px;
+            max-width: 50%;
+            font-size: 40px;
+            line-height: 48px;
+            letter-spacing: -0.4px;
+         }
+      }
+      &-p {
+         font-style: normal;
+         font-weight: bold;
+         font-size: 24px;
+         line-height: 32px;
+         font-family: SquadExtraBold;
+         color: #494949;
+
+         @media (min-width: 768px) {
+            margin-bottom: 16px;
+         }
+      }
+   }
+}

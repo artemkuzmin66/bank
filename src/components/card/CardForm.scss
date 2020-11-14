@@ -1,0 +1,110 @@
+.form {
+   &__row {
+      display: flex;
+      justify-content: space-between;
+      flex: 50%;
+      padding-top: 74px;
+   }
+   &__col {
+      display: flex;
+      flex-direction: column;
+
+      @media (max-width: 767px) {
+         padding-left: 16px;
+      }
+
+      &:last-child {
+         margin-left: 130px;
+
+         @media (max-width: 767px) {
+            display: none;
+         }
+      }
+
+      h1 {
+         font-weight: 800;
+         font-size: 40px;
+         line-height: 48px;
+         letter-spacing: -0.4px;
+      }
+      h3 {
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 28px;
+         color: #494949;
+         max-width: 448px;
+      }
+
+      &-btn {
+         background: #b8b8b8;
+         border-radius: 28px;
+         width: 156px;
+         height: 48px;
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 24px;
+         color: #ffffff;
+         border: 0;
+         outline: none;
+         margin-top: 40px;
+         margin-right: 64px;
+         cursor: pointer;
+      }
+      span {
+         font-weight: normal;
+         font-size: 16px;
+         line-height: 24px;
+         color: #494949;
+         &:nth-child(2) {
+            background: url(../../assets/images/security.png) no-repeat;
+            padding-left: 32px;
+            padding-top: 3px;
+
+            @media (max-width: 767px) {
+               margin-top: 5px;
+            }
+         }
+
+         @media (max-width: 767px) {
+            display: flex;
+         }
+      }
+      h6 {
+         font-weight: normal;
+         font-size: 14px;
+         line-height: 20px;
+         span {
+            color: #52ae30;
+         }
+      }
+   }
+}
+
+input {
+   background: #f1f1f1;
+   border: 1px solid #c6c6c6;
+   box-sizing: border-box;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   width: 544px;
+   height: 48px;
+   margin: 50px 0px 0px 0px;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 28px;
+   color: #494949;
+
+   @media (max-width: 767px) {
+      width: 343px;
+      height: 48px;
+   }
+
+   &::placeholder {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #939393;
+   }
+}

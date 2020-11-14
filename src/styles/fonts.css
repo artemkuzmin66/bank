@@ -1,0 +1,23 @@
+@font-face {
+   font-family: "SquadExtraBold";
+   src: url(../fonts/Squad-ExtraBold.ttf), url(../fonts/squad-extrabold.woff), url(../fonts/squad-extrabold.woff2);
+   font-weight: 800;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "SourceSansProBold";
+   src: url(../fonts/SourceSansPro-Bold.ttf);
+   font-weight: 400;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "SourceSansProRegular";
+   src: url(../fonts/SourceSansPro-Regular.ttf);
+   font-weight: 800;
+   font-display: swap;
+   font-style: normal;
+}

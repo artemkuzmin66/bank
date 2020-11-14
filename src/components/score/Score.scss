@@ -1,0 +1,144 @@
+.score {
+   padding: 30px 0 0;
+
+   @media (min-width: 768px) {
+      padding: 40px 0 0;
+   }
+
+   @media (min-width: 1200px) {
+      padding: 60px 0 0;
+   }
+
+   @media (min-width: 1600px) {
+      padding: 80px 0 0;
+   }
+
+   &__header {
+      margin-bottom: 35px;
+
+      @media (min-width: 768px) {
+         margin-bottom: 80px;
+      }
+
+      @media (min-width: 1200px) {
+         margin-bottom: -190px;
+      }
+      @media (min-width: 1024px) {
+         margin-bottom: -170px;
+      }
+
+      h1 {
+         font-family: "SquadExtraBold", sans-serif;
+         font-size: 40px;
+         line-height: 48px;
+         max-width: 380px;
+         letter-spacing: -0.4px;
+         margin-bottom: 16px;
+
+         @media (min-width: 1600px) {
+            font-size: 40px;
+            line-height: 48px;
+            letter-spacing: -0.4px;
+         }
+      }
+
+      p {
+         font-family: "SourceSansPro", sans-serif;
+         font-weight: 400;
+         max-width: 480px;
+         font-size: 24px;
+         line-height: 30px;
+         color: #494949;
+      }
+   }
+
+   &__body {
+      display: flex;
+      margin-bottom: 32px;
+      display: flex;
+      align-items: flex-end;
+
+      &-content {
+         display: none;
+
+         @media (min-width: 1024px) {
+            display: flex;
+            flex-direction: column;
+            flex: 1 0;
+            margin-bottom: 4px;
+         }
+      }
+      &-img {
+         @media (min-width: 1024px) {
+            flex: 0 0 608px;
+            box-sizing: border-box;
+            padding-left: 40px;
+         }
+
+         img {
+            height: auto;
+            width: 100%;
+            display: block;
+
+            @media (min-width: 1024px) {
+               display: block;
+               float: right;
+            }
+         }
+      }
+
+      span {
+         font-family: "SquadExtraBold", sans-serif;
+         font-weight: 700;
+         font-size: 16px;
+         line-height: 24px;
+         color: #494949;
+         border-bottom: 2px solid rgba(226, 230, 240, 0.7);
+         margin-top: 56px;
+      }
+   }
+
+   &__footer {
+      display: flex;
+      flex-direction: column;
+
+      @media (min-width: 768px) {
+         justify-content: space-between;
+         align-items: center;
+         flex-direction: row;
+      }
+
+      &-text {
+         flex: 1 0;
+         min-width: 0;
+         max-width: 490px;
+         font-size: 14px;
+         line-height: 20px;
+         color: #494949;
+         font-family: "SourceSansPro", sans-serif;
+         margin-bottom: 32px;
+
+         @media (min-width: 768px) {
+            margin-bottom: 0;
+            flex: 1 0 50%;
+         }
+      }
+
+      a {
+         font-weight: bold;
+         font-size: 16px;
+         line-height: 24px;
+         background: url(../../assets/images/pdf.png) no-repeat left center;
+         padding-left: 37px;
+         display: flex;
+         transition: 0.4s;
+         color: #000;
+         flex: 1 0 50%;
+         max-width: 280px;
+
+         @media (min-width: 768px) {
+            justify-content: flex-end;
+         }
+      }
+   }
+}
