@@ -73,7 +73,7 @@
             margin-top: 6px;
          }
       }
-      h1 {
+      &-title {
          font-family: "SquadExtraBold", sans-serif;
          font-weight: 800;
          font-size: 32px;
@@ -82,11 +82,11 @@
 
          @media (min-width: 768px) {
             flex: 0 0 30%;
+            font-size: 40px;
+            line-height: 48px;
          }
 
          @media (min-width: 1600px) {
-            font-size: 40px;
-            line-height: 48px;
             letter-spacing: -0.4px;
          }
 

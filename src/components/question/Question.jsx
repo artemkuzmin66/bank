@@ -46,7 +46,7 @@ class Question extends React.Component {
             <div className="question">
                <div className="container">
                   <div className="question__content">
-                     <h1>Вопросы <span>и ответы</span></h1>
+                     <h1 className="question__content-title">Вопросы <span>и ответы</span></h1>
                      <ul className="question__content-list">
                         <div className="question__content-list-text">
                            <li onClick={this.handleDeploy1}>У меня уже есть карта ОТП Банка, могу я принять участие в акции?</li>

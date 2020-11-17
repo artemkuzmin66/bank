@@ -8,7 +8,7 @@ const Score = () => {
       <section className="score">
          <div className="container">
             <div className="score__header">
-               <h1>Как работает <span>накопительный счёт</span></h1>
+               <h1 className="score__header-title">Как работает <span>накопительный счёт</span></h1>
                <p>Ставки растут в зависимости от суммы ежемесячных трат по карте «ОТП Покупки»</p>
             </div>
             <div className="score__body">

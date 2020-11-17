@@ -25,7 +25,6 @@ class Calculator extends React.Component {
                <h3>Первоначальная сумма накопления</h3>
                <div className="calculator__slider">
                   <output htmlFor="fader" id="volume" className="calculator__slider-num">{range1}</output>
-                  <span className="calculator__slider-rub">RUB</span>
                </div>
                <div className="slider">
                   <input name="range1" value={range1} onChange={this.change} className="range" type="range" id="fader" min="0" max="300000" step="100" />

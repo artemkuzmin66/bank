@@ -1,14 +1,13 @@
 import React from 'react';
 import logo from '../../assets/images/logo.png';
 import s from './Nav.module.scss';
-import { NavLink } from 'react-router-dom';
 
 const HeaderNav = () => {
    return (
       <header className={s.nav}>
          <div className="container">
             <div className={s.content}>
-               <img className={s.img} src={logo} />
+               <img className={s.img} src={logo} alt="otp-bank" />
                {/* <nav>
                   <div className={s.item}>
                      <NavLink to='/profile' activeClassName={s.active}>Рассчитать доход</NavLink>

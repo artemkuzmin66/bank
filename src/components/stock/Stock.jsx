@@ -23,7 +23,7 @@ class Stock extends React.Component {
             <section className="stock">
                <div className="container">
                   <div className="stock__content">
-                     <h1 className="stock__content-h1">Акция «Будь в плюсе»</h1>
+                     <h1 className="stock__content-title">Акция «Будь в плюсе»</h1>
                      <p className="stock__content-p">Получите возможность удвоить остаток на вашем накопительном счете! </p>
                      <a onClick={this.handleDeploy} className={`${isOpen && s.none} ${s.a}`} href="#more">Подробнее</a>
                   </div>

@@ -15,10 +15,7 @@
    display: inline;
    padding-bottom: 40px;
    white-space: nowrap;
-
-   &:first-child {
-      margin-right: 48px;
-   }
+   margin-right: 48px;
 
    @media (min-width: 768px) {
       line-height: 32px;

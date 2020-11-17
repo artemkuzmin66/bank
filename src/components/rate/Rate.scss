@@ -15,20 +15,20 @@
       padding: 86px 0 0;
    }
 
-   h1 {
+   &__title {
       font-family: "SquadExtraBold", sans-serif;
       font-weight: 800;
-      font-size: 40px;
-      line-height: 48px;
+      font-size: 32px;
+      line-height: 40px;
       margin-bottom: 74px;
 
       @media (min-width: 768px) {
          margin-bottom: 48px;
+         font-size: 40px;
+         line-height: 48px;
       }
 
       @media (min-width: 1600px) {
-         font-size: 40px;
-         line-height: 48px;
          letter-spacing: -0.4px;
       }
    }

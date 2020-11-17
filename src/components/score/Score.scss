@@ -27,18 +27,17 @@
          margin-bottom: -170px;
       }
 
-      h1 {
+      &-title {
          font-family: "SquadExtraBold", sans-serif;
-         font-size: 40px;
-         line-height: 48px;
+         font-size: 32px;
+         line-height: 40px;
          max-width: 380px;
          letter-spacing: -0.4px;
          margin-bottom: 16px;
 
-         @media (min-width: 1600px) {
+         @media (min-width: 768px) {
             font-size: 40px;
             line-height: 48px;
-            letter-spacing: -0.4px;
          }
       }
 

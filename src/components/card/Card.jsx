@@ -26,7 +26,7 @@ class Cart extends React.Component {
             <div className="cart">
                <div className="container">
                   <div className="cart__header">
-                     <h1>Бесплатная карта с доставкой на дом</h1>
+                     <h1 className="cart__header-title">Бесплатная карта с доставкой на дом</h1>
                      <p>Закажите карту «ОТП Покупки» онлайн и получайте повышенную ставку уже сейчас</p>
                   </div>
                   <div className="cart__body">

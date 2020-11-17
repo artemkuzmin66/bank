@@ -28,7 +28,7 @@ class Profit extends React.Component {
                   }))
                }
                <div className="profit__title">
-                  <h1>Рассчитайте свой доход по накопительному счету</h1>
+                  <h1 className="profit__title-title">Рассчитайте свой доход по накопительному счету</h1>
                </div>
                <div className="profit__text-row">
                   <ul className="profit__text-list">

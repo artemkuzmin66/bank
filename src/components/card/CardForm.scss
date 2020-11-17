@@ -9,15 +9,13 @@
       display: flex;
       flex-direction: column;
 
-      @media (max-width: 767px) {
-         padding-left: 16px;
-      }
-
       &:last-child {
          margin-left: 130px;
+         display: none;
 
-         @media (max-width: 767px) {
-            display: none;
+         @media (min-width: 768px) {
+            display: flex;
+            flex-direction: column;
          }
       }
 
@@ -55,18 +53,20 @@
          font-size: 16px;
          line-height: 24px;
          color: #494949;
+         display: flex;
          &:nth-child(2) {
             background: url(../../assets/images/security.png) no-repeat;
             padding-left: 32px;
             padding-top: 3px;
+            margin-top: 5px;
 
-            @media (max-width: 767px) {
-               margin-top: 5px;
+            @media (min-width: 768px) {
+               margin-top: 0px;
             }
          }
 
-         @media (max-width: 767px) {
-            display: flex;
+         @media (min-width: 768px) {
+            display: inline;
          }
       }
       h6 {
@@ -88,16 +88,16 @@ input {
    display: flex;
    flex-direction: column;
    align-items: flex-start;
-   width: 544px;
-   height: 48px;
    margin: 50px 0px 0px 0px;
    font-weight: normal;
    font-size: 20px;
    line-height: 28px;
    color: #494949;
+   width: 343px;
+   height: 48px;
 
-   @media (max-width: 767px) {
-      width: 343px;
+   @media (min-width: 768px) {
+      width: 544px;
       height: 48px;
    }
 

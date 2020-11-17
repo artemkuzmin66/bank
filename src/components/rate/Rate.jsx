@@ -11,7 +11,7 @@ const Rate = () => {
    return (
       <section className="rate">
          <div className="container">
-            <h1>Как получить повышенную ставку</h1>
+            <h1 className="rate__title">Как получить повышенную ставку</h1>
             <div className="rate__row">
 
                <div className="rate__col">

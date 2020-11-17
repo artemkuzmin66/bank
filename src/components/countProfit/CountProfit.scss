@@ -28,18 +28,19 @@
          line-height: 48px;
          letter-spacing: -0.4px;
       }
-   }
+      &-title {
+         font-family: "SquadExtraBold", sans-serif;
+         font-weight: 800;
+         color: #000;
+         font-size: 32px;
+         line-height: 40px;
+         margin-top: 90px;
+         max-width: 480px;
 
-   h1 {
-      font-weight: 800;
-      font-size: 40px;
-      line-height: 48px;
-      max-width: 736px;
-      margin-top: 70px;
-
-      @media (max-width: 767px) {
-         font-size: 28px;
-         line-height: 36px;
+         @media (min-width: 768px) {
+            font-size: 40px;
+            line-height: 48px;
+         }
       }
    }
 
@@ -174,10 +175,10 @@
          display: flex;
          justify-content: space-between;
          margin-top: 10px;
-         max-width: 544px;
+         max-width: 343px;
 
-         @media (max-width: 767px) {
-            max-width: 343px;
+         @media (min-width: 768px) {
+            max-width: 544px;
          }
       }
       &-text {
